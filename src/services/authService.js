@@ -12,12 +12,12 @@ class AuthService {
   async login(username, password) {
     try {
       // Simulação de autenticação - em produção, seria uma chamada para API
-      if (username === 'admin' && password === 'dentcare2025') {
+      if (username === 'ferpesso' && password === 'ferpesso') {
         this.isAuthenticated = true;
         this.user = {
           id: 1,
-          username: 'admin',
-          name: 'Administrador',
+          username: 'ferpesso',
+          name: 'Fernando Pessoa',
           role: 'admin'
         };
         
